@@ -1,4 +1,3 @@
-import React from "react"
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "./mode-toggle"
 
@@ -15,7 +14,7 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
           <a href="home" className="hover:text-primary transition">Home</a>
           <a href="about" className="hover:text-primary transition">About</a>
-          <a href="projects" className="hover:text-primary transition">Projects</a>
+          <a href="project" className="hover:text-primary transition">Projects</a>
           <a href="contact" className="hover:text-primary transition">Contact</a>
         </nav>
 

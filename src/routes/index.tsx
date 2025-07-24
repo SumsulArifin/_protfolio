@@ -2,6 +2,7 @@ import App from "@/App";
 import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import Home from "@/pages/Home";
+import Projects from "@/pages/Projects";
 import {createBrowserRouter,} from "react-router";
 
 const router = createBrowserRouter([
@@ -21,7 +22,10 @@ const router = createBrowserRouter([
     path: "/contact",
     Component: Contact,
     },
-    
+         {
+    path: "/project",
+    Component: Projects,
+    },
     ]
   },
 ]);
